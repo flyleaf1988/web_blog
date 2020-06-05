@@ -1,0 +1,20 @@
+{% extends 'base.jinja2' %}
+
+{% block content %}
+<h1>Create post</h1>
+<form method="POST">
+	<div class=tab>
+		<label for="title">Title: </label><div />
+		<input type="text" name="title" id="title" />
+	</div>
+
+	<div class=tab>
+		<label for="content">Content: </label><div />
+		<textarea name="content" id="content"></textarea>
+	</div>
+
+	<div>
+		<input type="submit">
+	</div>
+</form>
+{% endblock %}

@@ -1,0 +1,10 @@
+body                { font-family: sans-serif; background: #eee; line-height: 2 }
+a                   { color: #377ba8; }
+h1, h2              { font-family: sans-serif, serif; margin: 0; text-decoration: underline }
+h1                  { border-bottom: 5px solid #eee; }
+h2                  { font-size: 1.5em; }
+.tab                { border: 0px; width: 550px}
+input               { margin-left: 0.3em; width: 97% }
+textarea            { margin-left: 0.3em; width: 97%; height: 300px; resize: none }
+label               { font-weight: bold; margin-left: 0.3em }
+input[type=submit]  { font-weight: bold; width: 98%; background-color: white }
