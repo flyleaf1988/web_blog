@@ -1,5 +1,4 @@
 from utils.database_connection import DatabaseConnection
-from typing import List, Tuple
 import sqlite3
 
 """
